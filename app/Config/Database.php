@@ -19,6 +19,7 @@ class Database extends Config
      */
     public string $defaultGroup = 'default';
 
+    // ? A-SIERRA UPDATE HOSTNAME ACCORDING TO THE ENVIRONMENT
     /**
      * The default database connection.
      *
@@ -26,10 +27,11 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'localhost',
-        'username'     => '',
-        'password'     => '',
-        'database'     => '',
+        'hostname'     => '212.107.17.205',
+        // 'hostname'     => 'localhost',
+        'username'     => 'u514626843_ale_master',
+        'password'     => 'P6[oOg37Rayl',
+        'database'     => 'u514626843_recipe_book',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
